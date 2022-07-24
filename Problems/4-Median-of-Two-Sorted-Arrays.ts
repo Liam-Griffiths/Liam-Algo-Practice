@@ -36,7 +36,7 @@ function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
 
     if(isEven === 0){
         const mid = (len / 2) - 1;
-        
+
         return merged[mid];
     }
 
